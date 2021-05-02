@@ -9,7 +9,6 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
   Why I am doing this? -> Because, I am one of that unfornunate guy in the country right now whose family is going through severe medical condition and for which I have to make sure at any cost I cannot get Covid and thus vaccine is safest way to reduce the chance.
 </p>
 <br>
-<br>
 <table>
   <tr>
     <b>Application Flow</b>
@@ -24,7 +23,6 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
     </ul>
   </tr>
 </table>
-<br>
 <br>
 <table>
   <tr>
