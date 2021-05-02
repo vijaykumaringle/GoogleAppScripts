@@ -1,2 +1,2 @@
-#Cowin Vaccine Availability Notifier
+# Cowin Vaccine Availability Notifier
 Projects related to Google App Scripts
