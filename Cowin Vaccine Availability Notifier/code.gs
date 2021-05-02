@@ -32,21 +32,23 @@ function callCovinAPI() {
     var json = response.getContentText();
     var data = JSON.parse(json);
     
-    //for loop for centers
-    for (var centerkey in data.centers) {
-      
-      //check for availability
-      if(data.centers[centerkey].sessions[0].available_capacity > 0 && data.centers[centerkey].sessions[0].min_age_limit == 18) {
-        available_sess.push({
-          'name': data.centers[centerkey].name,
-          'pincode': data.centers[centerkey].pincode,
-          'min_age_limit': data.centers[centerkey].sessions[0].min_age_limit,
-          'available_capacity': data.centers[centerkey].sessions[0].available_capacity.toString(),
-          'date': data.centers[centerkey].sessions[0].date,
-          'vaccine': data.centers[centerkey].sessions[0].vaccine,
-          'fee_type': data.centers[centerkey].fee_type
+	if(data) {
+      //for loop for centers
+      for (var centerkey in data.centers) {
+        
+        //check for availability
+        if(data.centers[centerkey].sessions[0].available_capacity > 0 && data.centers[centerkey].sessions[0].min_age_limit == 18) {
+          available_sess.push({
+            'name': data.centers[centerkey].name,
+            'pincode': data.centers[centerkey].pincode,
+            'min_age_limit': data.centers[centerkey].sessions[0].min_age_limit,
+            'available_capacity': data.centers[centerkey].sessions[0].available_capacity.toString(),
+            'date': data.centers[centerkey].sessions[0].date,
+            'vaccine': data.centers[centerkey].sessions[0].vaccine,
+            'fee_type': data.centers[centerkey].fee_type
 
-        });
+          });
+        }
       }
     }
 
