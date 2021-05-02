@@ -12,6 +12,22 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
 <br>
 <table>
   <tr>
+    <b>Application Flow</b>
+  </tr>
+  <tr>
+    <ul>
+      <li>Start - Trigger - Every 5/10min time based </li>
+      <li>Code Checks if slot available in any pincode centers for 18+ vaccine drive</li>
+      <li>For all found details is gathered and drafted. If nothing found code ends.</li>
+      <li>Email is triggered with drafted email body to receipients mentioned.</li>
+      <li>End</li>
+    </ul>
+  </tr>
+</table>
+<br>
+<br>
+<table>
+  <tr>
     <b>Please follow steps below to setup and use the script.</b>
   </tr>
   <tr>
@@ -40,6 +56,9 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
         Monitor runs from <b>Executions</b> section.
       </li>
     </ul>
+    </tr>
+    <tr>
+      <b>**Integration with Alexa and Direct Phone Notification coming soon! And may be RPA to book a slot directly. 🤖</b>
     </tr>
     <tr>
       <br>
