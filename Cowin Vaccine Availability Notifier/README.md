@@ -27,11 +27,11 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
       </li>
       <li>
         Next and one of the important thing is to set up trigger for our code. Navigate to the <b>Triggers</b> section. Create a new trigger with configuration as:<br>
-       a. Choose which function to run: myFunction<br>
+       <b>a. Choose which function to run: myFunction<br>
        b. Select event source: Time-driven<br>
        c. Select type of time based trigger: Minutes Later <br>
        d. Select minute interval: Every 10 minutes
-       e. Failure notification settings: Notify me hourly
+       e. Failure notification settings: Notify me hourly</b>
       </li>
       <li>
         Test the code by running it from <b>Editor</b> section.
@@ -40,5 +40,13 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
         Monitor runs from <b>Executions</b> section.
       </li>
     </ul>
+    </tr>
+    <tr>
+      <b>Email Example Screenshot:</b><br>
+      <img src="https://github.com/vijaykumaringle/GoogleAppScripts/blob/main/Cowin%20Vaccine%20Availability%20Notifier/Email-example.PNG">
+    </tr>
+    <tr>
+      <b>Code example Screenshot:</b><br>
+      <img src="https://github.com/vijaykumaringle/GoogleAppScripts/blob/main/Cowin%20Vaccine%20Availability%20Notifier/code-ss.PNG">
     </tr>
 </table>
