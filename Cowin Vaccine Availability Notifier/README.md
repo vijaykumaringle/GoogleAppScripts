@@ -57,7 +57,7 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
     </tr>
     <tr>
       <br>
-      <b>**Integration with Alexa and Direct Phone Notification coming soon! And may be RPA to book a slot directly. 🤖</b>
+      <b>**Integration with Alexa and Direct Phone Notification coming soon! 🤖</b>
       <br>
     </tr>
     <tr>
