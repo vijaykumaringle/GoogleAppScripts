@@ -6,7 +6,7 @@
   <b>Why?: </b> Government (Indian and State) has opened a vaccination drive for all citizens 18+ from 1st May 2021 but as there is surge in demand (obvi) and shortage of vaccines, it's hard to get your hands on a vaccine availability or schedule. For those who are familier with IRCTC would know the pain. :P And to make it worse it does not even have fixed schedule for slot opening, so you just have to check all day and night on Cowin.<br>
 But thanks to Cowin + API Setu APIs we have access to public APIs which can help us reduce the pain of checking all day for slots and just checking when available in your nearby area (based on Pincode or by district).<br>
 I am consuming Cowin/APISetu APIs to check if schedule/slot is available in centers from my nearby Pincodes and if available then trigger email with all information as a notifier. I am using Google Cloud's App Script to run and schedule this code project for running every 10 minutes and thus alerting me at the earliest when vaccine is available.<br><br>
-  Why Am I doing this? -> Because, I am one of that unfornunate guy in the country right now whose family is going through severe medical condition and for which I have to make at any cost I cannot get Covid and thus vaccine is safest way to reduce the chance.
+  Why Am I doing this? -> Because, I am one of that unfornunate guy in the country right now whose family is going through severe medical condition and for which I have to make sure at any cost I cannot get Covid and thus vaccine is safest way to reduce the chance.
 </p>
 <br>
 <br>
@@ -42,6 +42,7 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
     </ul>
     </tr>
     <tr>
+      <br>
       <b>Email Example Screenshot:</b><br>
       <img src="https://github.com/vijaykumaringle/GoogleAppScripts/blob/main/Cowin%20Vaccine%20Availability%20Notifier/Email-example.PNG">
     </tr>
