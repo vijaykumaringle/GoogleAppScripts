@@ -1,6 +1,6 @@
 # Cowin Vaccine Availability Notifier
 
-<p>This is the code I wrote which can be configured to be schdueled by Google App Scripts to check Cowin Vaccine Availability API after every 10min (or as per configuration). If vaccine slot is available then the information is passed by email to receipient about Center, Vaccine, Availability, Fees, Date etc.</p>
+<p>This is the code I wrote which can be configured to be scheduled by Google App Scripts to check Cowin Vaccine Availability API after every 10min (or as per configuration). If vaccine slot is available then the information is passed by email to receipient about Center, Vaccine, Availability, Fees, Date etc.</p>
 
 <p>
   <b>Why, What and How?: </b> Government (Indian and State) has opened a vaccination drive for all citizens 18+ from 1st May 2021 but as there is surge in demand (obvi) and shortage of vaccines, it's hard to get your hands on a vaccine availability or schedule. For those who are familier with IRCTC would know the pain. :P And to make it worse it does not even have fixed schedule for slot opening, so you just have to check all day and night on Cowin.<br>
