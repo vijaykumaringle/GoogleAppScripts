@@ -8,7 +8,7 @@ But thanks to Cowin + API Setu APIs we have access to public APIs which can help
 I am consuming Cowin/APISetu APIs to check if schedule/slot is available in centers from my nearby Pincodes and if available then trigger email with all information as a notifier. I am using Google Cloud's App Script to run and schedule this code project for running every 10 minutes and thus alerting me at the earliest when vaccine is available.<br><br>
   Why I am doing this? -> Because, I am one of that unfornunate guy in the country right now whose family is going through severe medical condition and for which I have to make sure at any cost I cannot get Covid and thus vaccine is safest way to reduce the chance.
 </p>
-<br>
+
 <table>
   <tr>
     <b>Application Flow</b>
@@ -23,7 +23,7 @@ I am consuming Cowin/APISetu APIs to check if schedule/slot is available in cent
     </ul>
   </tr>
 </table>
-<br>
+
 <table>
   <tr>
     <b>Please follow steps below to setup and use the script.</b>
